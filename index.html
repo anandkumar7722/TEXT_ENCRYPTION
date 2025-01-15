@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Encryption Webpage</title>
+    <title>Text Encryption</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>TEXT ENCRYPTOR</h1>
-        <textarea id="inputText" placeholder="Enter text to encrypt..."></textarea>
+        <h1>TEXT ENCRYPTION</h1>
+        <textarea id="inputText" placeholder="Enter text to process..."></textarea>
         
         <select id="algorithmSelect">
+            <!--Algorithm-->
             <option value="aes">AES Encryption</option>
             <option value="rsa">RSA Encryption</option>
-            <option value="fernet">Fernet Encryption</option>
-            <option value="fernet">DES Encryption</option>
+            <option value="des">DES Encryption</option>
+        </select>
+
+        <select id="modeSelect">
+            <!--ENCRYPTOR-->
+            <option value="Encrypt">Encrypt</option>
+            <!--DECRYPTOR-->
+            <option value="Decrypt">Decrypt</option>
         </select>
         
-        <button onclick="encryptText()">Encrypt</button>
+        <button onclick="processText()">Process</button>
         
         <div id="resultContainer">
-            <h2>Encrypted Result:</h2>
+            <h2>Result:</h2>
             <p id="resultText"></p>
         </div>
     </div>
