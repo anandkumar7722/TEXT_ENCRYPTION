@@ -32,14 +32,13 @@ Handles the styling, ensuring the application is visually appealing and mobile-r
 ### JavaScript (`script.js`)
 Contains the core logic for encryption and decryption using placeholder implementations of common algorithms.
 
----
 
 ## 🛠️ Usage Instructions
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/text-encryptor.git
-   cd text-encryptor
+   git clone https://github.com/anandkumar7722/TEXT_ENCRYPTION.git
+   cd TEXT_ENCRYPTION
    Open in Browser Simply open the index.html file in your favorite browser.
 
 Encrypt or Decrypt
